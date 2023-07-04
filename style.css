@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:20px;
+    font-weight: 600;
+    background-color: #1f1f1f;
+    color: white;
+}
+.head-container{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+     justify-content: space-between; 
+    margin-right: 20px;
+    margin-left: 30px;
+}
+#logo{
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 70px;
+   
+    
+}
+#login, #explore, #rent{
+    text-align: center;
+    padding:0%;
+    
+}
+#search-bar{
+    /* -webkit-text-fill-color: #262626; */
+   align-items: center;
+    width: 700px;
+    margin-right: 20px;
+}
+#search{
+    padding: 10px;
+    border-radius: 8px;
+    width:  100%;
+    color:black;
+    background-color: #262626;
+}
+.round {
+    flex: 3;
+    position: relative;
+    padding: 8px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #262626;
+    height: 25px;
+    margin-left: 20px;
+}
+.block{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #262626;
+}
+#aboutus, .forent{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-details {
+    display: flex;
+    margin: 20px;
+}
+.text{
+    color: #C4C4C4;
+    margin-right: 25px;
+    margin: 40px 20px;
+    font-size: 30px;
+}
+.clock{
+    width: min-content;
+    margin-right: 50px;
+    justify-content: center;
+}
+.categories{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.grid-container{
+  
+    margin-right: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    
+}
+@media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+  }
+@media (min-width: 900px) {
+    .grid-container { grid-template-columns: repeat(3, 1fr); }
+  }
+.grid-item {
+    border-radius: 10px;
+    border: 3px solid #262626;
+    margin: 15px;
+    padding: 15px;
+   
+  }
+  .grid-text{
+    color: #C4C4C4;
+    font-size: 30px;
+  }
+  .grid-text-2{
+    color: #C4C4C4;
+    padding: 5px;
+    font-size: 15px;
+    word-wrap: break-word;
+    
+  }
+  .text-2{
+    word-break: keep-all;
+  }
+  .know-more{
+    margin-top: 50px;;
+    margin-left: 150px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu{
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+  }
+  .name{
+    margin-left: 30px;
+  }
